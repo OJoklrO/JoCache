@@ -2,6 +2,4 @@ module github.com/OJoklrO/JoCache
 
 go 1.16
 
-replace lru => ./lru
-
-require lru v0.0.0-00010101000000-000000000000
+require github.com/OJoklrO/JoCache/lru v0.0.0-20210310081636-47dd02bdc79b

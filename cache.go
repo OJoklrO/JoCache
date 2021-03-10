@@ -1,7 +1,7 @@
 package JoCache
 
 import (
-	"lru"
+	"github.com/OJoklrO/JoCache/lru"
 	"sync"
 )
 

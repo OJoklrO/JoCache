@@ -22,7 +22,7 @@ func New(replicas int, fn Hash) *Map {
 		hashMap: map[int]string{},
 	}
 
-	if m.hashMap == nil {
+	if m.hash == nil {
 		m.hash = crc32.ChecksumIEEE
 	}
 
